@@ -35,7 +35,7 @@ To run this project first of all you need:
 ## Project Usage
 
 After running this link in browser user found following page :
-![Home Page Secreenshot!](/assets/images/san-juan-mountains.jpg "Home Page Screenshot")
+![Home Page Secreenshot!](/https://mdg.imgix.net/assets/images/tux.png?auto=format&fit=clip&q=40&w=100 "Home Page Screenshot")
 
 ## Project Testing
 
