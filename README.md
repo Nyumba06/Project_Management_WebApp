@@ -35,7 +35,7 @@ To run this project first of all you need:
 ## Project Usage
 
 After running this link in browser user found following page :
-![Home Page Secreenshot!]('Screenshot (415).png' "Home Page Screenshot")
+![Home Page Secreenshot!](/Screenshot415.png "Home Page Screenshot")
 
 ## Project Testing
 
