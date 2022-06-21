@@ -7,7 +7,7 @@ Project Management WebApp is application where authenticated user can manage use
 - Laravel Framework
 - MySql Database
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This application used Laravel auth to Register and authenticate users. No unauthorized user can perform operations. Only logged in user can perform operations.
 
 ## Learning Laravel
 
