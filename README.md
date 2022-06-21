@@ -35,7 +35,7 @@ To run this project first of all you need:
 ## Project Usage
 
 After running this link in browser user found following page :
-![The San Juan Mountains are beautiful!](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![Home Page Secreenshot!](/assets/images/san-juan-mountains.jpg "Home Page Screenshot")
 
 ## Project Testing
 
