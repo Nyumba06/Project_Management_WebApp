@@ -7,7 +7,16 @@ Project Management WebApp is application where authenticated user can manage use
 - Laravel Framework
 - MySql Database
 
-This application used Laravel auth to Register and authenticate users. No unauthorized user can perform operations. Only logged in user can perform operations.
+This application used Laravel auth to Register and authenticate users. No unauthorized user can perform operations. Only logged in user can perform operations. Features of this application are as follows:
+
+- Login
+- Register New User
+- View Current Tasks
+    - Count and show Total tasks on Dashboard
+    - Count and show Active tasks on Dashboard
+- Add New Task
+- Update Task
+- Delete Task
 
 ## Learning Laravel
 
