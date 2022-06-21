@@ -22,11 +22,11 @@ This application used Laravel auth to Register and authenticate users. No unauth
 ## Project Installation
 
 To run this project first of all you need: 
-- Editor
-- web browser
+- Editor (VS Code, Dreamweaver etc)
+- Web browser (Chrome, Firefox, Edge etc)
 - XAMPP server
-Then you have to download composer to install Laravel. After the Composer is installed, check the installation by typing the composer command in the command prompt. 
-
+Then you have to download composer to install Laravel. After the Composer is installed, check the installation by typing the composer command in the command prompt. Create a new directory anywhere in your system and paste your project files and then run following command in command line: 
+##### php artisan serve
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
