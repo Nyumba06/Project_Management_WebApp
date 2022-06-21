@@ -1,5 +1,7 @@
 # Project Management WebApp
 
+
+## Objective and Goals 
 Project Management WebApp is application where authenticated user can manage users, projects and tasks. Here user can addnewuser, addnewtask, update the status of the task , delete task and also view all tasks. User can see numberof active tasks and total number of tasks. Technologies used in this application are as follows:
 
 - Html & CSS
