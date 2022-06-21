@@ -35,7 +35,12 @@ To run this project first of all you need:
 ## Project Usage
 
 After running this link in browser user found following page :
-![Tux, the Linux mascot](/public/home.png)
+
+![Home Page](/public/home.png)
+
+After clicking on login button user found login page :
+
+![Login Page](/public/login.png)
 
 ## Project Testing
 
