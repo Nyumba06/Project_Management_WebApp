@@ -42,6 +42,14 @@ After clicking on login button user found login page :
 
 ![Login Page](/public/login.png)
 
+After login user redirects to this page :
+
+![Dashboard](/public/dashboard.png)
+
+Here by clicking on add new user button user redirects to register new user page :
+
+![Register](/public/addnewuser.png)
+
 ## Project Testing
 
 After successfull setup user go to Home and Login with entering Email:: myumba06@gmail.com  and  Password :: myumba06 . After Login user can register new user by clicking on add new user button. By clicking register user form will be open and after filling this user can be register. Also user can add new task by clicking add new task. Then User click on manage task button and all tasks shown in table and here user and update or delete any task. From the top right menu click on its profile and can logout after done.
