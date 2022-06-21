@@ -1,7 +1,7 @@
 # Project Management WebApp
 
 
-## Objective and Goals 
+## Objective and Description 
 Project Management WebApp is application where authenticated user can manage users, projects and tasks. Here user can addnewuser, addnewtask, update the status of the task , delete task and also view all tasks. User can see numberof active tasks and total number of tasks. Technologies used in this application are as follows:
 
 - Html & CSS
@@ -32,7 +32,8 @@ To run this project first of all you need:
 - After running this command you get this link : 
 -          http://127.0.0.1:8000
 - Paste it in your browser and press Enter your project is Installed and show home page now click on "Login" button and login with authorized email and password. Then manage you projects.
-## Laravel Sponsors
+
+## Project Usage
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
