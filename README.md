@@ -17,12 +17,15 @@ This application used Laravel auth to Register and authenticate users. No unauth
 - Add New Task
 - Update Task
 - Delete Task
+- Logout
 
-## Learning Laravel
+## Project Installation
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+To run this project first of all you need: 
+- Editor
+- web browser
+- XAMPP server
+Then you have to download composer to install Laravel. After the Composer is installed, check the installation by typing the composer command in the command prompt. 
 
 ## Laravel Sponsors
 
