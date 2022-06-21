@@ -1,7 +1,6 @@
 ## Project Management WebApp
 
-Project Management WebApp is application where authenticated user can manage users, projects and tasks. User 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Project Management WebApp is application where authenticated user can manage users, projects and tasks. Here user can addnewuser, addnewtask, update the status of the task , delete task and also view all tasks. User can see numberof active tasks and total number of tasks. I design and develop this web application using Laravel Framework, HTML, BOOTSTRAP4 and MySql as a database.
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
