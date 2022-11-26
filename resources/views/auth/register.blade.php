@@ -14,10 +14,10 @@ $activetask = count(Task::all()->where('status','active'));
             <div class="card">
                 <div class="card-header">{{ __('Dashboard - Add New User') }}</div>
 
-                <div class="card-body">
+                <div class="card-body bg-2">
                 
                     <div class="row">
-                        <div class="col-md-3 bg-info p-2">
+                        <div class="col-md-3 bg-1 p-2">
                             <a href="{{route('home')}}" class="btn btn-light w-100 mb-2">Home</a>
                             <a href="{{route('register')}}" class="btn btn-light w-100 mb-2">Add New User</a>
                             <a href="{{route('addnewtask')}}" class="btn btn-light w-100 mb-2">Add New Task</a>

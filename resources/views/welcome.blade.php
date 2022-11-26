@@ -13,11 +13,15 @@
             body {
                 font-family: 'Nunito', sans-serif;
             }
+            .bg-1 {
+                background-image:url('https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg');background-size: 100%;
+            }
+            
         </style>
 </head>
 <body>
 
-<div class="jumbotron bg-secondary text-white text-center" style="margin-bottom:0;padding:16%;">
+<div class="bg-1 jumbotron bg-secondary text-white text-center" style="margin-bottom:0;padding:15.8%;">
   <h1>Project Management Web App</h1>
   <p>Manage your Projects with Our App</p>
   @if (Route::has('login'))

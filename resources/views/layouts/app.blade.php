@@ -19,8 +19,23 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+
+    <style>
+            body {
+                font-family: 'Nunito', sans-serif;
+            }
+            .bg-1 {
+                background-image:url('https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171__480.jpg');background-size: 100%;
+            }
+            
+            .bg-2 {
+                background-image:url('https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?w=740&t=st=1669475043~exp=1669475643~hmac=ae25f42a4768747526f5e0a35ea23efdeeea39bd8b5d00e9babd5fd245504814');background-size: 100%;
+            }
+
+        </style>
+        
 </head>
-<body>
+<body class="bg-1">
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
@@ -38,7 +53,7 @@
                     </ul>
 
                     <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto bg-2">
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
