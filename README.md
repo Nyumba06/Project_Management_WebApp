@@ -71,9 +71,11 @@ After clicking on Logout User will logout session
 
 ## Reflective analysis
 
-<p>Validation is the most important feature of web application. It validates the incoming data. By default, controller class uses a Validate Requests which provides a convenient method to validate incoming HTTP requests with a variety of powerful validation rules. </p>
+<p>Validation is the most important feature of web application. It validates the incoming data. By default, controller class uses a Validate Requests which provides a convenient method to validate incoming HTTP requests with a variety of powerful validation rules. </p> 
 
-## Available Validation Rules in Laravel
+<p>I have done the validation by using Laravel validation because it has strong rules defined for validation. Laravel validation can be performed in several different ways and the error messages are generated either automatically or manually, depending on the validate method of your choice. Once the input is validated, the rest goes as expected, automatically. This way you avoid further errors along the way.</p>
+
+<p>I have used the laravel request validate query parameter. This method can be applied right away on requests. When the Laravel validator fails, you are automatically redirected to the previous page.</p>
 =======
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
