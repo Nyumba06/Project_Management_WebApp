@@ -7,17 +7,13 @@ Project Management WebApp is application where only authenticated user can mange
 - Laravel Validations 
 - Improve the Design - Change the whole Design of Application
  
-This application used Laravel auth to Register and authenticate users. No unauthorized user can perform operations. Only logged in user can perform operations. Features of this application are as follows:
-
-- Login
-- Register New User
-- View Current Tasks
-    - Count and show Total tasks on Dashboard
-    - Count and show Active tasks on Dashboard
-- Add New Task
-- Update Task
-- Delete Task
-- Logout
+When User perform any task application help user in improving and correcting the inputs by Laravel validations. These validations are as follows:
+- No empty input
+- Task title has minimum and maximum length of characters
+- Task description has minimum and maximum length of characters
+- User has password validatioins
+- User has to confirm password while creating new user
+- etc
 
 ## Project Installation
 
@@ -71,7 +67,7 @@ After clicking on Logout User will logout session
 
 ## Project Testing
 
-After successfull setup user redirect to Project Management App Home and Login with entering Email:: myumba06@gmail.com  and  Password :: myumba06 . After Login user can register new user by clicking on add new user button. By clicking register user form will be open and after filling this user can be register. Also user can add new task by clicking add new task. Then User click on manage task button and all tasks shown in table and here user and update or delete any task. From the top right menu click on its profile and can logout after done. All the screenshots are upload in User Guide.
+<p>After successfull setup user redirect to Project Management App Home and Login with entering Email:: myumba06@gmail.com  and  Password :: myumba06 . After Login user can register new user by clicking on add new user button. By clicking register user form will be open and after filling this user can be register. Also user can add new task by clicking add new task. Then User click on manage task button and all tasks shown in table and here user and update or delete any task. From the top right menu click on its profile and can logout after done. All the screenshots are upload in User Guide.</p>
 =======
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
