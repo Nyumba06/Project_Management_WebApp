@@ -1,13 +1,12 @@
 <h1 align="center">Project Management WebApp</h1>
 
-## Objective and Description 
-Project Management WebApp is application where authenticated user can manage users, projects and tasks. Here user can addnewuser, addnewtask, update the status of the task , delete task and also view all tasks. User can see numberof active tasks and total number of tasks. Technologies used in this application are as follows:
+## Description 
+Project Management WebApp is application where only authenticated user can mange tasks. Also Improve the design of the application. It validated the user while performing the different operations. It uses checks while adding , updating or deleting the tasks and users. New advanced features added are as follows:
 
-- Html & CSS
-- Bootstrap
-- Laravel Framework
-- MySql Database
-
+- Laravel Authentication 
+- Laravel Validations 
+- Improve the Design - Change the whole Design of Application
+ 
 This application used Laravel auth to Register and authenticate users. No unauthorized user can perform operations. Only logged in user can perform operations. Features of this application are as follows:
 
 - Login
