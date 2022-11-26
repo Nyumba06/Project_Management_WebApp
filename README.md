@@ -1,4 +1,3 @@
-HEAD
 <h1 align="center">Project Management WebApp</h1>
 
 ## Objective and Description 
