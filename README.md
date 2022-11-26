@@ -67,7 +67,7 @@ After clicking on Logout User will logout session
 
 ## Project Testing
 
-<p>After successfull setup user redirect to Project Management App Home and Login with entering Email:: myumba06@gmail.com  and  Password :: myumba06 . After Login user can register new user by clicking on add new user button. By clicking register user form will be open and after filling this user can be register. Also user can add new task by clicking add new task. Then User click on manage task button and all tasks shown in table and here user and update or delete any task. From the top right menu click on its profile and can logout after done. All the screenshots are upload in User Guide.</p>
+<p>After successfull setup the next step is Project Testing here I have done the testing with the manual test you have to run the project and test it as in the user guide. After the setup user redirect to Project Management App Home and Login with entering Email:: myumba06@gmail.com  and  Password :: myumba06 . After Login user can register new user by clicking on add new user button. By clicking register user form will be open and after filling this user can be register. Also user can add new task by clicking add new task. Then User click on manage task button and all tasks shown in table and here user and update or delete any task. From the top right menu click on its profile and can logout after done. All the screenshots are upload in User Guide.</p>
 =======
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
