@@ -79,7 +79,7 @@ After clicking on Logout User will logout session
 - Writing The Validation Logic
 <p>With everything in place, you can now write the validation logic in the controler store method any method to store data. For this, you can apply the validate method found in the Illuminate\Http\Request object, one of the Laravel validation array of objects. On validation failure, the framework generates an automatic response for the user and you’ll see an Illuminate\Validation\ValidationException. If all is good, the execution continues normally.</p> 
 - Displaying Validation Errors
-<p>.</p> 
+<p>You have defined the validation rules in Laravel and the user input you receive does not comply. What Laravel validation does is take the user back to the previous page and it does that automatically and Display the error message.</p> 
 - Form Request Validation In Laravel
 <p>Form Request validation is used for validation scenarios of increased complexity. These form request classes are custom classes with validation and authorization logic of their own. To create the request class, run the PHP Artisan make:request command. .</p> 
 - Error Messages
@@ -92,6 +92,9 @@ With the all method you can retrieve, as you may expect, all the messages in all
 </p> 
 -Custom Message
 <p>By using this validation we have an option to show the custom Error message by writing custom message.</p>
+
+<i>code(Article): Teodora Corbu  
+(Individual), Laravel Validation - The Step-by-Step Guide, Code version, and Availability (digitalya.co, [URL](https://digitalya.co/blog/laravel-validation/))</i>
 
 
 <p align="center">-----------------------------------------</p>
