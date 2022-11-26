@@ -93,6 +93,7 @@ With the all method you can retrieve, as you may expect, all the messages in all
 -Custom Message
 <p>By using this validation we have an option to show the custom Error message by writing custom message.</p>
 
+## Reffereces
 <i>code(Article): Teodora Corbu  
 (Individual), Laravel Validation - The Step-by-Step Guide, Code version, and Availability (digitalya.co, [URL](https://digitalya.co/blog/laravel-validation/))</i>
 
