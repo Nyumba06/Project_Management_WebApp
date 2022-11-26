@@ -12,7 +12,7 @@ $activetask = count(Task::all()->where('status','active'));
     <div class="row justify-content-center">
         <div class="col-md-12">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard - Add New Task1') }}</div>
+                <div class="card-header">{{ __('Dashboard - Add New Task') }}</div>
 
                 <div class="card-body">
                 
