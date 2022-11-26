@@ -33,7 +33,7 @@ $activetask = count(Task::all()->where('status','active'));
                             <label for="title" class="col-md-4 col-form-label text-md-end">{{ __('Title') }}</label>
 
                             <div class="col-md-6">
-                                <input id="title" type="text" class="form-control @error('title') is-invalid @enderror" name="title" value="" required autocomplete="title" autofocus>
+                                <input id="title" type="text" class="form-control @error('title') is-invalid @enderror" name="title" value="" autocomplete="title" autofocus>
 
                                 @error('title')
                                     <span class="invalid-feedback" role="alert">
@@ -47,7 +47,7 @@ $activetask = count(Task::all()->where('status','active'));
                             <label for="description" class="col-md-4 col-form-label text-md-end">{{ __('Description') }}</label>
 
                             <div class="col-md-6">
-                                <input id="description" type="text" class="form-control @error('description') is-invalid @enderror" name="description" value="" required autocomplete="description" autofocus>
+                                <input id="description" type="text" class="form-control @error('description') is-invalid @enderror" name="description" value="" autocomplete="description" autofocus>
 
                                 @error('description')
                                     <span class="invalid-feedback" role="alert">

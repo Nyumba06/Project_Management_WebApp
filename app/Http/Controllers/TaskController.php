@@ -35,6 +35,10 @@ class TaskController extends Controller
 
     public function addTask(Request $req)
     { 
+        $req->validate([
+            'title' => 'required||max:15',
+            'description' => 'required||max:100||min:15'
+        ]);
         $db = new Task();
         $db->title = $req->title;
         $db->status = "pending";
@@ -51,6 +55,10 @@ class TaskController extends Controller
 
     public function updateTask(Request $req)
     { 
+        $req->validate([
+            'title' => 'required||max:15',
+            'description' => 'required||max:100||min:15'
+        ]);
         $db = Task::find($req->id);
         $db->title = $req->title;
         $db->status = $req->status;
