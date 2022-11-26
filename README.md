@@ -75,8 +75,27 @@ After clicking on Logout User will logout session
 
 <p>I have done the validation by using Laravel validation because it has strong rules defined for validation. Laravel validation can be performed in several different ways and the error messages are generated either automatically or manually, depending on the validate method of your choice. Once the input is validated, the rest goes as expected, automatically. This way you avoid further errors along the way.</p>
 
-<p>I have used the laravel request validate query parameter. This method can be applied right away on requests. When the Laravel validator fails, you are automatically redirected to the previous page.</p>
-=======
+<p>I have done the Validations by using Laravel Validation in 4 steps. </p> 
+- Writing The Validation Logic
+<p>With everything in place, you can now write the validation logic in the controler store method any method to store data. For this, you can apply the validate method found in the Illuminate\Http\Request object, one of the Laravel validation array of objects. On validation failure, the framework generates an automatic response for the user and you’ll see an Illuminate\Validation\ValidationException. If all is good, the execution continues normally.</p> 
+- Displaying Validation Errors
+<p>.</p> 
+- Form Request Validation In Laravel
+<p>Form Request validation is used for validation scenarios of increased complexity. These form request classes are custom classes with validation and authorization logic of their own. To create the request class, run the PHP Artisan make:request command. .</p> 
+- Error Messages
+<p>Laravel provides a variety of methods to work with error messages. They are available in the Illuminate\Support\MessageBag instance, which you get in a validator instance when you call the errors method.
+
+You can retrieve the first or all messages for a field (the first method or the get method). In the latter case, you may use the * character to retrieve all messages for each form field array.
+
+With the all method you can retrieve, as you may expect, all the messages in all the fields. If you want to check if there is any error for a specific field, use the has method.
+
+</p> 
+-Custom Message
+<p>By using this validation we have an option to show the custom Error message by writing custom message.</p>
+
+
+<p align="center">-----------------------------------------</p>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
